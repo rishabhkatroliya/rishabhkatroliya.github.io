@@ -35,7 +35,7 @@ const Header = ({ toggle }) => {
         </NavLink>
       </NavMenu>
       <NavBtn>
-        <Resume2 nav-link resume />
+        <Resume2 className="nav-link resume" nav-link resume />
       </NavBtn>
 
       <Bars onClick={toggle} />
