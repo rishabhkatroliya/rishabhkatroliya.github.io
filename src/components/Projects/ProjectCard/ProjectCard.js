@@ -18,16 +18,17 @@ function ProjectCard() {
           <CardRight className="project-title">
             <h4>{list.title}</h4>
             <p className="project-description">{list.description}</p>
-            <Stack>
+            <Stack className="project-tech-stack">
               <span className="stackTitle">Tech Stack-</span>
               <span className="tags">{list.tech_stack}</span>
             </Stack>
             <BtnGroup>
               <a
-                className="btn btn2 SecondarBtn"
+                className="btn btn2 SecondarBtn project-github-link"
                 href={list.github_url}
                 target="_blank"
                 rel="noopener noreferrer"
+
               >
                 Github
               </a>

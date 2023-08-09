@@ -48,8 +48,18 @@ function About() {
                 administrative and communication skills, a keen eye for detail,
                 and the proficiency to develop efficient code utilizing the MERN
                 Stack.
+
+
+                Throughout my journey, I have successfully constructed numerous
+                web applications and completed four significant projects. These
+                experiences have not only enhanced my technical prowess but also
+                imparted invaluable lessons in teamwork, leadership, and
+                effective communication. Now, after undergoing months of
+                rigorous training, I am eagerly seeking an opportunity to
+                contribute as a full stack web developer.
+
               </li>
-              <br />
+              {/* <br />
               <li>
                 Throughout my journey, I have successfully constructed numerous
                 web applications and completed four significant projects. These
@@ -58,7 +68,7 @@ function About() {
                 effective communication. Now, after undergoing months of
                 rigorous training, I am eagerly seeking an opportunity to
                 contribute as a full stack web developer.
-              </li>
+              </li> */}
             </div>
           </Card>
         </div>

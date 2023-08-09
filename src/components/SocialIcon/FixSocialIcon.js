@@ -57,7 +57,6 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
-            id="contact-email"
             href="mailto:rishabh.katroliya999@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
