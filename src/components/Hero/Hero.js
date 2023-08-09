@@ -26,8 +26,8 @@ function Hero() {
             <h5>Full Stack Web Developer</h5>
             <p>
               My passion lies in creating elegantly simple designs and writing
-              clean code. I find immense joy in the work I do and take pride in
-              my abilities.
+              clean code. I specialize in efficient React apps that just work 
+              across all platforms and browsers. 
             </p>
           </HeroLeft>
           <HeroRight>

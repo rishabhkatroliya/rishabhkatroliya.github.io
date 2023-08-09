@@ -33,10 +33,17 @@ const Header = ({ toggle }) => {
         >
           Contact
         </NavLink>
+        <NavLink
+          className="menu-item nav-link resume"
+          to="contact"
+          smooth={true}
+        >
+           <Resume2 id="resume-button-1"  />
+        </NavLink>
       </NavMenu>
-      <NavBtn>
+      {/* <NavBtn>
         <Resume2 id="resume-button-1" className="nav-link resume" />
-      </NavBtn>
+      </NavBtn> */}
 
       <Bars onClick={toggle} />
     </Nav>

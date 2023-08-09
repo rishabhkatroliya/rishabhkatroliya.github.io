@@ -2,6 +2,7 @@
 import specialized from "./specialized.png";
 import swiggy from "./swiggy.png";
 import nykaa from "./nykaa.png";
+import travel from "./travel.png";
 
 export const ProjectList = [
   {
@@ -28,6 +29,14 @@ export const ProjectList = [
     tech_stack: "HTML, CSS, Javascript, ES6",
     github_url: "https://github.com/shaad72345/SwiggyClone",
     demo_url: "https://voluble-custard-cbe365.netlify.app/index.html",
+  },
+  {
+    img: travel,
+    title: "Hilling Travel Agency",
+    description: `This is a responsive app seeking constantly to explore new avenues in the travel. Worked on Blog page`,
+    tech_stack: "Reactjs, HTML, CSS, Javascript, ES6",
+    github_url: "https://github.com/rishabhkatroliya/travel-agency",
+    demo_url: "https://travel-agency-43wi.vercel.app/",
   },
 ];
 
