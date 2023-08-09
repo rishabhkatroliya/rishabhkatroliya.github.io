@@ -43,12 +43,7 @@ function About() {
             <div className="AboutBio" id="user-detail-intro">
               {/* <ul> */}
               <li>
-                Hello! My name is <strong>Rishabh Gupta </strong>and I find
-                great joy in crafting digital creations that thrive on the vast
-                landscape of the internet.
-              </li>
-              <br />
-              <li>
+                Hello! My name is <strong>Rishabh Gupta </strong>and
                 I am an enthusiastic Developer equipped with exceptional
                 administrative and communication skills, a keen eye for detail,
                 and the proficiency to develop efficient code utilizing the MERN
