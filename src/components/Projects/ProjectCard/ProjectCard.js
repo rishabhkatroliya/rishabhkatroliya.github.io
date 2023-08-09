@@ -17,7 +17,7 @@ function ProjectCard() {
           </CardLeft>
           <CardRight className="project-title">
             <h4>{list.title}</h4>
-            <p>{list.description}</p>
+            <p className="project-description">{list.description}</p>
             <Stack>
               <span className="stackTitle">Tech Stack-</span>
               <span className="tags">{list.tech_stack}</span>

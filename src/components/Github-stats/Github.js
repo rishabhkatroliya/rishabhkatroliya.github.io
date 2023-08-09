@@ -24,7 +24,7 @@ export const Github = () => {
           marginTop={"40px"}
         >
           <Center>
-            <Image id="github-stats-card" className="git" src="https://github-readme-stats.vercel.app/api?username=rishabhkatroliya&count_private=true&show_icons=true&theme=radical" />
+            <Image id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=rishabhkatroliya&count_private=true&show_icons=true&theme=radical" />
           </Center>
           <Center>
             <Image id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=rishabhkatroliya" />
