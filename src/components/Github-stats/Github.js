@@ -16,10 +16,10 @@ export const Github = () => {
           <GitHubCalendar username="rishabhkatroliya" />
         </Center>
         <SimpleGrid
-          w={"90%"}
+          w={"95%"}
           margin="auto"
           alignItems="center"
-          columns={[1, 1, 2, 2]}
+          columns={[3]}
           gap="10px"
           marginTop={"40px"}
         >
@@ -28,6 +28,9 @@ export const Github = () => {
           </Center>
           <Center>
             <Image id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=rishabhkatroliya" />
+          </Center>
+          <Center>
+            <Image id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs?username=rishabhkatroliya&show_icons=true&locale=en&layout=compact" />
           </Center>
         </SimpleGrid>
       </div>

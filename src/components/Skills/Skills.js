@@ -18,7 +18,7 @@ function Skills() {
                         <Technologies>
                             {stackList.map((stack, index) => (
                                 <Tech key={index} className="tech skills-card" >
-                                    <TechImg id="github-top-langs" className="skills-card-img" src={stack.img} alt={stack.name} />
+                                    <TechImg className="skills-card-img" src={stack.img} alt={stack.name} />
                                     <TechName className="skills-card-name">{stack.name}</TechName>
                                 </Tech>
                             ))}
