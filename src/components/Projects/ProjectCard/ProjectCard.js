@@ -33,7 +33,7 @@ function ProjectCard() {
                 Github
               </a>
               <a
-                className="btn PrimaryBtn"
+                className="btn PrimaryBtn project-deployed-link"
                 href={list.demo_url}
                 target="_blank"
                 rel="noopener noreferrer"

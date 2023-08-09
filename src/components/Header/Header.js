@@ -36,6 +36,7 @@ const Header = ({ toggle }) => {
         <NavLink
           className="menu-item nav-link resume"
           to="contact"
+          id="resume-button-1"
           smooth={true}
         >
            <Resume2 id="resume-button-1"  />

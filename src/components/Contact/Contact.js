@@ -13,12 +13,12 @@ function Contact() {
         <div className="BigCard">
           <Outer>
             <Box1>
-              <HiMail />
-              <p>rishabh.katroliya999@gmail.com</p>
-            </Box1>
-            <Box1>
               <FaMobileAlt />
               <p id="contact-phone">+91 7895945566</p>
+            </Box1>
+            <Box1 id="contact-email">
+              <HiMail />
+              <p>rishabh.katroliya999@gmail.com</p>
             </Box1>
             <Box1>
               <HiLocationMarker />
