@@ -42,7 +42,7 @@ function About() {
             />
             <div className="AboutBio" id="user-detail-intro">
               {/* <ul> */}
-              <li>
+              {/* <li> */}
                 Hello! My name is <strong>Rishabh Gupta </strong>and
                 I am an enthusiastic Software Developer equipped with exceptional
                 administrative and communication skills, a keen eye for detail,
@@ -56,7 +56,7 @@ function About() {
                 rigorous training, I am eagerly seeking an opportunity to
                 contribute as a full stack web developer.
 
-              </li>
+              {/* </li> */}
               {/* <br />
               <li>
                 Throughout my journey, I have successfully constructed numerous
