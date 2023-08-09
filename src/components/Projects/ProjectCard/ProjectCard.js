@@ -16,7 +16,7 @@ function ProjectCard() {
             <img src={list.img} alt={list.name} />
           </CardLeft>
           <CardRight>
-            <h4>{list.title}</h4>
+            <h4 className="project-title">{list.title}</h4>
             <p>{list.description}</p>
             <Stack>
               <span className="stackTitle">Tech Stack-</span>
