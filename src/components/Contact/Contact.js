@@ -18,7 +18,7 @@ function Contact() {
             </Box1>
             <Box1>
               <FaMobileAlt />
-              <p>+91 7895945566</p>
+              <p id="contact-phone">+91 7895945566</p>
             </Box1>
             <Box1>
               <HiLocationMarker />

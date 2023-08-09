@@ -21,8 +21,8 @@ function Hero() {
       <Header toggle={toggle} />
       <HeroContainer>
         <HeroWrapper id="home">
-          <HeroLeft>
-            <h1>Hi, I'm Rishabh Gupta</h1>
+          <HeroLeft id="user-detail-intro">
+            <h1 id="user-detail-name">Hi, I'm Rishabh Gupta</h1>
             <h5>Full Stack Web Developer</h5>
             <p>
               My passion lies in creating elegantly simple designs and writing
@@ -31,7 +31,7 @@ function Hero() {
             </p>
           </HeroLeft>
           <HeroRight>
-            <Image src={profile} alt="man-svgrepo" />
+            <Image className="home-img" src={profile} alt="man-svgrepo" />
           </HeroRight>
         </HeroWrapper>
 

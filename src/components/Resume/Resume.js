@@ -15,6 +15,7 @@ export const Resume2 = () => {
             download="Rishabh_Gupta_Resume"
           >
             <Button
+            id="resume-button-2"
               onClick={openResume}
               className="btn btn-md
                     bg-accent hover:bg-accent-hover 

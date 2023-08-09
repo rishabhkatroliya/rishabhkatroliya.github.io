@@ -30,7 +30,7 @@ function About() {
         ></path>
       </svg>
 
-      <ContactWrapper id="about">
+      <ContactWrapper id="about" className="about section">
         <div className="Container">
           <div className="SectionTitle" style={{ "margin-top": "100px" }}>
             About Me
@@ -40,7 +40,7 @@ function About() {
               src="https://contentstatic.techgig.com/photo/88751917.cms"
               alt="man-svgrepo"
             />
-            <div className="AboutBio">
+            <div className="AboutBio" id="user-detail-intro">
               {/* <ul> */}
               <li>
                 Hello! My name is <strong>Rishabh Gupta </strong>and I find
