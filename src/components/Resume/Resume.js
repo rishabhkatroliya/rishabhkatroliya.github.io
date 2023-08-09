@@ -2,11 +2,10 @@ import Rishabh_Resume from "./Rishabh_Gupta_Resume.pdf";
 import styled from "styled-components"
 import { Button } from "./ResumeElements";
 export const Resume2 = () => {
-    const openResume = (e) => {
-      e.preventDefault();
-        window.open(
-          "https://drive.google.com/file/d/1IXncN2l--by_B3-ANHbsHAIRIiEARqKy/view"
-        );
+    const openResume = () => {
+        // window.open(
+        //   "https://drive.google.com/file/d/1IXncN2l--by_B3-ANHbsHAIRIiEARqKy/view"
+        // );
       }
 
       return (
@@ -17,7 +16,7 @@ export const Resume2 = () => {
           >
             <Button
             id="resume-button-2"
-              onClick={openResume}
+             // onClick={openResume}
               className="btn btn-md
                     bg-accent hover:bg-accent-hover 
                     transition-all md:btn-lg"
