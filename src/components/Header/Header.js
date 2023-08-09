@@ -39,7 +39,7 @@ const Header = ({ toggle }) => {
           id="resume-button-1"
           smooth={true}
         >
-           <Resume2 id="resume-button-1"  />
+           <Resume2 id="resume-button-2"  />
         </NavLink>
       </NavMenu>
       {/* <NavBtn>
