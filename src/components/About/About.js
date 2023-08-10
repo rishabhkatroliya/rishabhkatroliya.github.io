@@ -56,9 +56,9 @@ function About() {
               </li>
               <br />
               <li id="user-detail-intro">
-                Throughout my journey, I have successfully constructed numerous
+                Throughout my journey, I have successfully developed numerous
                 web applications and completed four significant projects. These
-                experiences have not only enhanced my technical prowess but also
+                experiences have not only enhanced my technical skills but also
                 imparted invaluable lessons in teamwork, leadership, and
                 effective communication. Now, after undergoing months of
                 rigorous training, I am eagerly seeking an opportunity to

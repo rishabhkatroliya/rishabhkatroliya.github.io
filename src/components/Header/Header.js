@@ -33,13 +33,21 @@ const Header = ({ toggle }) => {
         >
           Contact
         </NavLink>
-        <NavBtn
+        {/* <NavBtn
           className="menu-item nav-link resume"
           id="resume-button-1"
         >
            <Resume2 id="resume-button-2"  />
-        </NavBtn>
+        </NavBtn> */}
       </NavMenu>
+      <div id="resume-button-1">
+        <NavBtn className="nav-link resume">
+          <Resume2
+            className="nav-link resume"
+            id="resume-link-1 resume-button-1"
+          />
+        </NavBtn>
+      </div>
       {/* <NavBtn>
         <Resume2 id="resume-button-1" className="nav-link resume" />
       </NavBtn> */}
