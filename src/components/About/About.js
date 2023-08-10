@@ -40,27 +40,22 @@ function About() {
               src="https://contentstatic.techgig.com/photo/88751917.cms"
               alt="man-svgrepo"
             />
-            <div className="AboutBio" id="user-detail-intro">
+            <div className="AboutBio">
               {/* <ul> */}
-              {/* <li> */}
-              My passion lies in creating elegantly simple designs and writing
-              clean code. I specialize in efficient React apps that just work 
-              across all platforms and browsers. 
-              {/* Hello! My name is Rishabh Gupta. I am an enthusiastic Software Developer equipped with exceptional
-              administrative and communication skills, a keen eye for detail,
-              and the proficiency to develop efficient code utilizing the MERN
-              Stack.
-              Throughout my journey, I have successfully developed numerous
-              web applications with dynamic User Interface and completed four
-              significant projects. These experiences have not only enhanced my technical skills but also
-              imparted invaluable lessons in teamwork, leadership, and
-              effective communication. Now, after undergoing months of
-              rigorous training, I am eagerly seeking an opportunity to
-              contribute as a full stack web developer. */}
-
-              {/* </li> */}
-              {/* <br />
-              <li>
+            
+              <li id="user-detail-name">
+                Hello! My name is <strong>Rishabh Gupta</strong>and I find
+                great joy in crafting digital creations that thrive on the vast
+                landscape of the internet.
+              </li>
+              <br />
+              <li id="user-detail-intro">
+                My expertise spans across HTML5, CSS3, JavaScript, ReactJs,
+                NodeJs, Express, and I'm well-versed in working with database
+                technologies like MongoDB.
+              </li>
+              <br />
+              <li id="user-detail-intro">
                 Throughout my journey, I have successfully constructed numerous
                 web applications and completed four significant projects. These
                 experiences have not only enhanced my technical prowess but also
@@ -68,7 +63,7 @@ function About() {
                 effective communication. Now, after undergoing months of
                 rigorous training, I am eagerly seeking an opportunity to
                 contribute as a full stack web developer.
-              </li> */}
+              </li>
             </div>
           </Card>
         </div>
