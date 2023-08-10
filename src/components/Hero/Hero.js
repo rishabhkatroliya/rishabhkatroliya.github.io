@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import profile from "../../Assets/rishu.png";
+import { Resume2 } from "../Resume/Resume";
 import {
   HeroContainer,
   HeroWrapper,
   HeroLeft,
   HeroRight,
+  NavBtn,
   Image
 } from "./HeroElements";
 function Hero() {
@@ -34,7 +36,9 @@ function Hero() {
             <Image className="home-img" src={profile} alt="man-svgrepo" />
           </HeroRight>
         </HeroWrapper>
-
+        <NavBtn id="resume-button-2 resume-link-2" className="">
+          <Resume2 id="resume-link-2 resume-button-2" />
+        </NavBtn>
        
         
       </HeroContainer>
