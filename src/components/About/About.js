@@ -43,7 +43,10 @@ function About() {
             <div className="AboutBio" id="user-detail-intro">
               {/* <ul> */}
               {/* <li> */}
-              Hello! My name is Rishabh Gupta. I am an enthusiastic Software Developer equipped with exceptional
+              My passion lies in creating elegantly simple designs and writing
+              clean code. I specialize in efficient React apps that just work 
+              across all platforms and browsers. 
+              {/* Hello! My name is Rishabh Gupta. I am an enthusiastic Software Developer equipped with exceptional
               administrative and communication skills, a keen eye for detail,
               and the proficiency to develop efficient code utilizing the MERN
               Stack.
@@ -53,7 +56,7 @@ function About() {
               imparted invaluable lessons in teamwork, leadership, and
               effective communication. Now, after undergoing months of
               rigorous training, I am eagerly seeking an opportunity to
-              contribute as a full stack web developer.
+              contribute as a full stack web developer. */}
 
               {/* </li> */}
               {/* <br />
