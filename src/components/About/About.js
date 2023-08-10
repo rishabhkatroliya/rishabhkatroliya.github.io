@@ -55,7 +55,7 @@ function About() {
                 technologies like MongoDB.
               </li>
               <br />
-              <li id="user-detail-intro">
+              <li>
                 Throughout my journey, I have successfully developed numerous
                 web applications and completed four significant projects. These
                 experiences have not only enhanced my technical skills but also
