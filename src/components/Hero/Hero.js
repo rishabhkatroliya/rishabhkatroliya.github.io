@@ -35,11 +35,11 @@ function Hero() {
           <HeroRight>
             <Image className="home-img" src={profile} alt="man-svgrepo" />
           </HeroRight>
-        </HeroWrapper>
-        <NavBtn id="resume-button-2 resume-link-2" className="">
-          <Resume2 id="resume-link-2 resume-button-2" />
-        </NavBtn>
        
+        <NavBtn id="resume-button-2" className="">
+          <Resume2 id="resume-link-2" />
+        </NavBtn>
+        </HeroWrapper>
         
       </HeroContainer>
     </main>

@@ -44,7 +44,7 @@ const Header = ({ toggle }) => {
         <NavBtn className="nav-link resume">
           <Resume2
             className="nav-link resume"
-            id="resume-link-1 resume-button-1"
+            id="resume-link-1"
           />
         </NavBtn>
       </div>
