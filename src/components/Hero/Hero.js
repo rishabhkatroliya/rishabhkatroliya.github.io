@@ -31,7 +31,14 @@ function Hero() {
               clean code. I specialize in efficient React apps that just work 
               across all platforms and browsers. 
             </p>
+            <br/><br/>
+            <NavBtn id="resume-button-2 resume-link-2" className="">
+          <Resume2 id="resume-link-2 resume-button-2" />
+        </NavBtn>
           </HeroLeft>
+          {/* <NavBtn id="resume-button-2 resume-link-2" className="">
+          <Resume2 id="resume-link-2 resume-button-2" />
+        </NavBtn> */}
           <HeroRight>
             <Image className="home-img" src={profile} alt="man-svgrepo" />
           </HeroRight>
@@ -40,9 +47,9 @@ function Hero() {
           <Resume2 id="resume-link-2" />
         </NavBtn> */}
         </HeroWrapper>
-        <NavBtn id="resume-button-2 resume-link-2" className="">
+        {/* <NavBtn id="resume-button-2 resume-link-2" className="">
           <Resume2 id="resume-link-2 resume-button-2" />
-        </NavBtn>
+        </NavBtn> */}
       </HeroContainer>
     </main>
   );
