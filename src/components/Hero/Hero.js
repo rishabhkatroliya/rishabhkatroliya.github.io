@@ -23,8 +23,8 @@ function Hero() {
       <Header toggle={toggle} />
       <HeroContainer>
         <HeroWrapper id="home">
-          <HeroLeft id="user-detail-intro">
-            <h1 id="user-detail-name">Hi, I'm Rishabh Gupta</h1>
+          <HeroLeft>
+            <h1>Hi, I'm Rishabh Gupta</h1>
             <h5>Full Stack Web Developer</h5>
             <p>
               My passion lies in creating elegantly simple designs and writing
