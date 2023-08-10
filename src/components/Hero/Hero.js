@@ -36,11 +36,13 @@ function Hero() {
             <Image className="home-img" src={profile} alt="man-svgrepo" />
           </HeroRight>
        
-        <NavBtn id="resume-button-2" className="">
+        {/* <NavBtn id="resume-button-2" className="">
           <Resume2 id="resume-link-2" />
-        </NavBtn>
+        </NavBtn> */}
         </HeroWrapper>
-        
+        <NavBtn id="resume-button-2 resume-link-2" className="">
+          <Resume2 id="resume-link-2 resume-button-2" />
+        </NavBtn>
       </HeroContainer>
     </main>
   );
