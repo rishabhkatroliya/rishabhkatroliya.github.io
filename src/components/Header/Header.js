@@ -33,14 +33,12 @@ const Header = ({ toggle }) => {
         >
           Contact
         </NavLink>
-        <NavLink
+        <NavBtn
           className="menu-item nav-link resume"
-          to="contact"
           id="resume-button-1"
-          smooth={true}
         >
            <Resume2 id="resume-button-2"  />
-        </NavLink>
+        </NavBtn>
       </NavMenu>
       {/* <NavBtn>
         <Resume2 id="resume-button-1" className="nav-link resume" />
