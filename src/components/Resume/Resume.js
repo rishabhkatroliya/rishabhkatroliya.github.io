@@ -14,11 +14,11 @@ export const Resume2 = () => {
        href={Rishabh_Resume}
        download="Rishabh_Gupta_Resume"
         className="nav-link resume"
-        id="resume-button-1 resume-link-1"
+        id="resume-button-1 resume-link-1 resume-button-2 resume-link-2"
       >
         <Button
           onClick={openResume}
-          id="resume-link-1"
+          id="resume-link-1 resume-link-2"
           className="btn btn-md
                     bg-accent hover:bg-accent-hover 
                     transition-all md:btn-lg nav-link resume"
