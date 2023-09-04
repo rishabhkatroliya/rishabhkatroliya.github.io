@@ -32,14 +32,14 @@ function Hero() {
               across all platforms and browsers. 
             </p>
             <br/><br/>
-            <div id="resume-button-2">
-        <NavBtn className="nav-link resume resume-link-2">
+            {/* <div id="resume-button-2"> */}
+        <NavBtn id="resume-button-2" className="nav-link resume resume-link-2">
           <Resume2
             className="nav-link resume"
             id="resume-link-2"
           />
         </NavBtn>
-      </div>
+      {/* </div> */}
             {/* <NavBtn id="resume-button-2 resume-link-2" className="">
           <Resume2 id="resume-link-2 resume-button-2" />
         </NavBtn> */}

@@ -18,7 +18,7 @@ export const Resume2 = () => {
       >
         <Button
           onClick={openResume}
-          id="resume-button-1 resume-link-1"
+          id="resume-link-1"
           className="btn btn-md
                     bg-accent hover:bg-accent-hover 
                     transition-all md:btn-lg nav-link resume"
