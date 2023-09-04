@@ -25,7 +25,7 @@ function Hero() {
         <HeroWrapper id="home">
           <HeroLeft>
             <h1>Hi, I'm Rishabh Gupta</h1>
-            <h5>Full Stack Web Developer</h5>
+            <h5>Aspiring MERN Developer</h5>
             <p>
               My passion lies in creating elegantly simple designs and writing
               clean code. I specialize in efficient React apps that just work 
