@@ -1,5 +1,5 @@
 import React from "react";
-import { Resume2 } from "../Resume/Resume";
+import { Resume1 } from "../Resume/Resume";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
@@ -42,7 +42,7 @@ const Header = ({ toggle }) => {
       </NavMenu>
       <div id="resume-button-1">
         <NavBtn className="nav-link resume resume-link-1">
-          <Resume2
+          <Resume1
             className="nav-link resume"
             id="resume-link-1"
           />
