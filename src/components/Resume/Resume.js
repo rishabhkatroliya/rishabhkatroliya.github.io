@@ -4,10 +4,9 @@ import { Button } from "./ResumeElements";
 export const Resume1 = () => {
   const openResume = () => {
      window.open(
-          "https://drive.google.com/file/d/1IXncN2l--by_B3-ANHbsHAIRIiEARqKy/view"
+      "https://drive.google.com/file/d/1IdCbumX_cu4KMtlS0TMqFGTA8Y_LkKrC/view?usp=sharing"
         );
   };
-
   return (
     <div>
       <a
@@ -33,7 +32,7 @@ export const Resume1 = () => {
 export const Resume2 = () => {
   const openResume = () => {
      window.open(
-          "https://drive.google.com/file/d/1IXncN2l--by_B3-ANHbsHAIRIiEARqKy/view"
+          "https://drive.google.com/file/d/1IdCbumX_cu4KMtlS0TMqFGTA8Y_LkKrC/view?usp=sharing"
         );
   };
 
